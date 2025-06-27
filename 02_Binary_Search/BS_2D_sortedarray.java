@@ -43,6 +43,7 @@ public class bs_2d_sortedarr {
         if (cols == 0) {
             return new int[]{-1, -1};
         }
+            //if no. of row==1 then
         if (rows == 1) {
             return binarySearch(matrix, 0, 0, cols - 1, target);
         }
